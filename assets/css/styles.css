@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    line-break: strict;
 }
 
 /* All about the header */
@@ -152,6 +153,7 @@ nav a:hover {
 
 #general section {
     flex: 2;
+
 }
 
 #general aside {
@@ -444,6 +446,7 @@ footer a {
         flex-direction: column;
         padding: 20px;
         flex: none;
+        width: 100%;
     }
     .footer_copy {
         padding-left: 20px;
@@ -479,4 +482,9 @@ footer a {
         flex-direction: column;
         justify-content: space-around;
     }
+
+    #general section {
+        margin-top: 110px;
+    }
 }
+
