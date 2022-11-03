@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script type="text/javascript">
+    window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none'
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'flex'
+            }
+        })
+    };
+    </script>
     <title>MediCenter</title>
 </head>
 <body>
@@ -15,6 +26,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
                         <li><a href="">HOME</a></li>
@@ -165,20 +181,22 @@
                         <div class="blue_box"></div>
                     </div>
                 </div>
-                <div class="widget">
-                    <div class="widget_title">
-                        <div class="widget_title_text">Make An Appointment</div>
-                        <div class="widget_title_bar"></div>
-                    </div>
-                    <div class="widget_body">
-                        <div class="appointment_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</div>
-                        <div class="appointment_hr"></div>
-                        <div class="contact_text">by phone: <b>1-800-643-4306</b></div>
-                        <div class="appointment_hr"></div>
-                        <div class="contact_text">by email: <a href="">medicenter@mail.com</a> </div>
-                        <div class="appointment_hr"></div>
-                        <div class="contact_text">or <a href="">fill in the form</a> on our contract page</div>
-                        <div class="appointment_hr"></div>
+                <div class="to_block">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Make An Appointment</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="appointment_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</div>
+                            <div class="appointment_hr"></div>
+                            <div class="contact_text">by phone: <b>1-800-643-4306</b></div>
+                            <div class="appointment_hr"></div>
+                            <div class="contact_text">by email: <a href="">medicenter@mail.com</a> </div>
+                            <div class="appointment_hr"></div>
+                            <div class="contact_text">or <a href="">fill in the form</a> on our contract page</div>
+                            <div class="appointment_hr"></div>
+                        </div>
                     </div>
                 </div>
             </aside>
