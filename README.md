@@ -2,11 +2,11 @@
 
 <br>
 
-![preview](./github/top.png)
+<kbd>![preview](./github/top.png)
 
-![preview](./github/mid.png)
+<kbd>![preview](./github/mid.png)
 
-![preview](./github/bottom.png)
+<kbd>![preview](./github/bottom.png)
 
 <h6 align="right">Largura 1920px</h6>
 
